@@ -1,7 +1,7 @@
 import os, json, requests
 from dotenv import load_dotenv
 load_dotenv()
-
+#meme
 BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
 MODEL= os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 API_KEY= os.getenv("OPENAI_API_KEY")
